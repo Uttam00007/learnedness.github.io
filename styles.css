@@ -1,0 +1,195 @@
+body {
+    font-family: Montserrat;
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5 {
+    font-family: Montserrat-black;
+  }
+  
+  p {
+    color: #8f8f8f
+  }
+  
+  /* heading */
+  .heading {
+    font-size: 4rem;
+    line-height: 1.5
+  }
+  
+  .heading {
+    font-weight: bold;
+  }
+  
+  /* title */
+  #title {
+    background-color: #FF4C68;
+    color: white;
+    text-align: left;
+  }
+  #title .container-fluid{padding: 3% 15% 7%}
+  .title-image {
+    width: 520px;
+    
+    position: absolute;
+    right: 15%;
+    height: 500px
+  }
+  
+  .container-fluid {
+    padding: 7% 15%
+  }
+  
+  .navbar {
+    padding: 0 0 4.5rem
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .nav-item {
+    padding: 0 1rem
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: Montserrat-light
+  }
+  
+  .download-button {
+    margin: 5% 3% 5% 0
+  }
+  
+  #features {
+  
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .features-box {
+    padding: 5%
+  }
+  
+  .fas {
+    color: #ef8172;
+    margin-bottom: 1rem
+  }
+  
+  .fas:hover {
+    color: #FF4C68
+  }
+  
+  .features-heading {
+    font-family: Montserrat-bold;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  /* testimonial */
+  #testimonials {
+    background-color: #ef8172;
+    color: #ffff;
+  }
+  
+  .carousel-item {
+  
+  }
+  
+  testimonial-text {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  
+  .testimonials-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  #press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+  }
+  
+  .press-logo {
+    width: 15%;
+    padding: 20px 20px 50px
+  }
+  
+  /* pricing section */
+  #pricing {
+    padding: 100px
+  }
+  
+  .pricing-column {
+    padding: 3% 2%;
+  }
+  
+  .pricing-heading {
+    font-weight: bold;
+    line-height: 3rem
+  }
+  
+  .pricing-heading {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  
+  .price-text {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  
+  @media (max-width:1040px) {
+    #title {
+      text-align: center
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+      width: 70%;
+      height: 80%
+    }
+  }
+  
+  .card-heading {
+    font-family: Montserrat-bold;
+    ont-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .cta-heading {
+    font-family: Montserrat-bold;
+    font-weight: bold;
+    font-size: 2rem;
+
+    
+    line-height: 1.5;
+    color: black;
+    margin-bottom: 40px;
+  }
+  
+  #cta {
+    background-color: #fff;
+  
+  }
+  
+  .ply {
+    margin-left: 20px;
+    margin-right: 20px
+  }
+  
+  #footer {
+    padding: 60px
+  }
+  
+  .log {
+    margin: 20px 10px;
+  }
+  .rt{
+      background-color: #fff;
+  }
